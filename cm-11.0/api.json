@@ -1,0 +1,16 @@
+{
+ "id": null,
+ "result": [
+    {
+    "url": "http://fs1.d-h.st/download/00101/nMF/cm-11-20140221-UNOFFICIAL-shooteru.zip",
+    "timestamp": "1392977873",
+    "api_level": "19",
+    "md5sum": "4be908533d9c5ba8c818043adf1c7373",
+    "filename": "cm-11-20140221-UNOFFICIAL-shooteru.zip",
+    "channel": "stable",
+    "changes": "https://raw.githubusercontent.com/johnnyslt/cmupdater/master/cm-11.0/changelog.txt",
+    "incremental": ""
+    },
+  ],
+ "error": null
+}
