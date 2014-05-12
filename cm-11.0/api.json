@@ -51,6 +51,16 @@
     "changes": "https://raw.githubusercontent.com/johnnyslt/cmupdater/master/cm-11.0/changelog.txt",
     "incremental": ""
     },
+    {
+    "url": "http://fs1.d-h.st/download/00118/1Dj/cm-11-20140512-UNOFFICIAL-shooteru.zip",
+    "timestamp": "1399912738",
+    "api_level": "19",
+    "md5sum": "540e68083897fc921e2b097b8bb7df33",
+    "filename": "cm-11-20140512-UNOFFICIAL-shooteru.zip",
+    "channel": "stable",
+    "changes": "https://raw.githubusercontent.com/johnnyslt/cmupdater/master/cm-11.0/changelog.txt",
+    "incremental": ""
+    },
 
   ],
  "error": null
