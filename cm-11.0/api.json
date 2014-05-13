@@ -52,11 +52,11 @@
     "incremental": ""
     },
     {
-    "url": "http://fs1.d-h.st/download/00118/1Dj/cm-11-20140512-UNOFFICIAL-shooteru.zip",
-    "timestamp": "1399912738",
+    "url": "http://fs1.d-h.st/download/00118/KVT/cm-11-20140513-UNOFFICIAL-shooteru.zip",
+    "timestamp": "1399985693",
     "api_level": "19",
-    "md5sum": "540e68083897fc921e2b097b8bb7df33",
-    "filename": "cm-11-20140512-UNOFFICIAL-shooteru.zip",
+    "md5sum": "0efa52a82d5adc9e9a9799c973167edb",
+    "filename": "cm-11-20140513-UNOFFICIAL-shooteru.zip",
     "channel": "stable",
     "changes": "https://raw.githubusercontent.com/johnnyslt/cmupdater/master/cm-11.0/changelog.txt",
     "incremental": ""
