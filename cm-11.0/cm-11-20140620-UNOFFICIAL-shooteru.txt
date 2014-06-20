@@ -1,0 +1,221 @@
+====================
+     06-20-2014
+====================
+
+   * android/
+476441b 4.4.3_r1.1 -> 4.4.4_r1
+
+   * bootable/recovery-cm/
+57bda54 add the functions for multi-stage packages to updater
+
+   * build/
+585bf32 Merge remote-tracking branch 'cm/cm-11.0' into HEAD
+0c0b0c7 Merge tag 'android-4.4.4_r1' into HEAD
+
+   * device/htc/shooteru/
+f846146 Fix auto mounting USB OTG
+
+   * external/chromium_org/
+d9324e9 Merge tag 'android-4.4.4_r1' into HEAD
+
+   * external/openssl/
+5c72597 Merge tag 'android-4.4.4_r1' into HEAD
+
+   * frameworks/av/
+0719951 Merge remote-tracking branch 'cm/cm-11.0' into HEAD
+
+   * frameworks/base/
+443e84c Merge remote-tracking branch 'cm/cm-11.0' into HEAD
+a5ff4ed Merge tag 'android-4.4.4_r1' into HEAD
+
+   * frameworks/webview/
+b3af9e0 Merge tag 'android-4.4.4_r1' into HEAD
+
+   * packages/apps/CMUpdater/
+1e10a00 Merge remote-tracking branch 'cm/cm-11.0' into HEAD
+
+   * packages/apps/DeskClock/
+f9c2f67 Merge branch 'refs/heads/clock' into HEAD
+
+   * packages/apps/Settings/
+efbafa5 Settings: Add gestures icons by Asher Simonds
+a6a19b1 Merge "Settings: remove 'Brightness adjustment' from auto brightness dialog" into cm-11.0
+c461a39 Settings: remove 'Brightness adjustment' from auto brightness dialog
+9ee0a74 Protected Apps:
+6c3bebd Settings: Fix Notification Drawer icons.
+
+   * packages/apps/ThemeChooser/
+de76ae6 Call launchGetThemesWebView if ActivityNotFound.
+
+   * packages/apps/Trebuchet/
+0c0cc5d Adjust layout for readability in different languages
+
+   * packages/providers/ThemesProvider/
+c69e217 Make sure to update theme capabilities.
+
+====================
+     06-19-2014
+====================
+
+   * build/
+6f3a103 ota: Let devices specify their own recovery-from-boot.p installer
+
+   * frameworks/base/
+00c1155 Add "Turn WiFi off" action to "Open networks" notification
+968d967 Merge "Revert "Vpn: Setup routes."" into cm-11.0
+5d2479d Revert "Vpn: Setup routes."
+cef811d Add previews to the themes contract.
+2c337f3 Merge "Install themes and icon packs for secondary users." into cm-11.0
+45a8399 Add status bar and navigation bar to ThemesContract
+7f56326 Remove DEFAULT_THEME_APPLIED_ON_FIRST_BOOT
+
+   * packages/apps/Settings/
+528f8fb Merge "Settings: Remove V+ pref if V+ isn't present" into cm-11.0
+446cc4e Settings: Remove owner info from lockscreen options.
+844c835 Merge "Settings: Move Navigation buttons out of interface." into cm-11.0
+bb192eb Settings: Remove V+ pref if V+ isn't present
+49cdc50 Settings: Fix lockscreen security strings
+
+   * packages/apps/Trebuchet/
+26f5466 Fix layout issues in Trebuchet
+dfbfff1 Merge "Fix protected folder behavior" into cm-11.0
+
+====================
+     06-18-2014
+====================
+
+   * bootable/recovery/
+e9a983d stop showing the background icon progress outside it's scope
+
+   * build/
+27aae42 "KTU84P"
+7f83b7c MR2.1 - Version 4.4.4.  Here we go!  DO NOT MERGE
+330bc33 colorize non-fatal javac stderr yellow (and actually display it... at all)
+
+   * cts/
+b8e2dab DO NOT MERGE Update for version bump
+6da2c75 CTS test for OpenSSL's early CCS issue (CVE-2014-0224)
+a3b762f Disable host side holotests also
+8e02f46 CTS report MUST not display raw performance numbers. bug:13347703
+510cfbc media: Refactor and improve robustness of AdaptivePlaybackTest
+e502d40 Fix a concurrency bug in OpenSSLHeartbleedTest.
+3a90060 hardware: consumerir: Increase test pattern length
+c070509 hardware: consumerir: Fix time discrepancy
+1856a4e CTS test for Heartbleed vulnerability in SSLSocket.
+
+   * external/chromium_org/
+76d1172 Backport "Recycle old V8 wrapper objects on navigations"
+afae5d8 Block access to java.lang.Object.getClass in injected Java objects
+
+   * external/chromium_org/third_party/WebKit/
+3fb1c1e Fix Java Bridge wrapper properties cleanup for multi-frame pages
+b13a6de Cherry-pick "Export WebCore::forgetV8ObjectForNPObject"
+
+   * external/chromium_org/third_party/openssl/
+e2f305e Cherrypick "OpenSSL: add CVE fixes from 1.0.1h"
+
+   * external/openssl/
+dd1da36 Fix Early CCS bug
+
+   * frameworks/base/
+02d3615 Fix for default USB debugging in eng builds.
+63ade05 Add EventLog event for logging of attempts to call java.lang.Object.getClass
+fcd7b7d Remove lockscreen slide delay option (2/2)
+d0456e1 Merge "Don't create idmap if app doesn't have resources.arsc" into cm-11.0
+9cc9257 Install themes and icon packs for secondary users.
+ee4b66d Don't create idmap if app doesn't have resources.arsc
+
+   * frameworks/webview/
+7a7dce8 Sanitize selector Intent when handling intent: scheme.
+
+   * packages/apps/CMHome/
+c352458 Remove launcher icon for now.
+
+   * packages/apps/Mms/
+0d076b9 Merge "Mms: Prevent popup window from closing" into cm-11.0
+
+   * packages/apps/Settings/
+a2b5ff1 Settings: Move Navigation buttons out of interface.
+2a149e9 Remove 'More device settings' menu
+7ed4559 Cleanup lockscreen security settings
+d98a006 Remove lockscreen slide delay option (1/2)
+
+   * packages/apps/ThemeChooser/
+9fcd13f FUUUU Camels
+
+   * packages/apps/Trebuchet/
+40926c6 Fix protected folder behavior
+8ca6c2a Add a custom home screen to Trebuchet.
+56db21e trebuchet: custom home
+cf43a17 Revert font change support
+
+   * vendor/cm/
+e7b6b8c Add the CMHome application to common.mk
+
+====================
+     06-17-2014
+====================
+
+   * android/
+81ee22d manifest: Add PhotoPhase repo
+05a0007 Add CMHome application.
+
+   * bootable/recovery/
+15b499b Progress thread: less aggressive redraw
+
+   * external/whispersystems/WhisperPush/
+f6ab030 WhisperPush: Don't query active session if token is null.
+
+   * frameworks/base/
+4178a95 Fix icon support for secondary users.
+5fed217 Merge "Updating ActivityIntentResolver so that queryIntents doesn't return protected applications." into cm-11.0
+2d01de7 SystemUI: Update UserTile from Google 4.4 code
+cebde37 Merge "Themes: Set bounds on iconUpon" into cm-11.0
+6e783ad Updating ActivityIntentResolver so that queryIntents doesn't return protected applications.
+0ce4d00 Keyguard: Distinguish the TextView id of pinEntry
+44ad279 PackageManagerService: Prevent sending a SIGKILL while the device shutting down
+
+   * hardware/qcom/audio-caf/
+9dbe39e audio: Force route on HAL when USB headset is disconnected
+
+   * packages/apps/Apollo/
+715bd79 Apollo: Allow reading external storage
+
+   * packages/apps/CMHome/
+ca6582c Change the background header to a different image.
+0edac1b Removed search capability from this application for now, so that Google search can be used instead by default. Added a proguard flag to include the com.android.launcher.home.Home interface from the api generated jar.
+
+   * packages/apps/CMUpdater/
+408d883 CMUpdater: update channels to reflect release structure
+
+   * packages/apps/Settings/
+051bf97 Settings: Modify volume override summary for JA translation
+
+   * packages/apps/ThemeChooser/
+d45bad2 Add 'Get More' Menu option
+
+   * packages/apps/Trebuchet/
+7b28680 Replace ugly Drawer setting (Sort Mode)
+0268e23 Trebuchet : Persist sorting mode
+5b2ed54 Trebuchet: don't crash when updating the "All apps" shortcut
+
+   * vendor/cm/
+5d7d0e5 Reverting last commit, pushed to head by accident.
+ee55f65 Add the CMHome application to the common_full makefile.
+
+====================
+     06-16-2014
+====================
+
+   * frameworks/base/
+d3207b3 tests: Hide new private APIs
+2734a07 Themes: Set bounds on iconUpon
+4d80714 Merge "Themes: Get resources with an explicit theme attached." into cm-11.0
+
+   * packages/apps/Calculator/
+b3fceae Drop remnants of broken local locales
+
+   * packages/apps/Settings/
+c33aa1b Integrate quite hours active period strings for JA translation
+c236fcd Settings: Modify & add AOSP JA translation
+
