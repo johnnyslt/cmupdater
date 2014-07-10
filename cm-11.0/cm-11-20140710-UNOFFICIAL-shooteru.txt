@@ -1,0 +1,227 @@
+====================
+     07-10-2014
+====================
+
+   * bootable/recovery/
+547c06f Allow custom bootloader msg offset in block misc
+2301cbc Do not wipe block misc on bootloader msg update
+
+   * bootable/recovery-cm/
+477c9de Do not wipe block misc on bootloader msg update
+
+   * build/
+ee65534 Merge remote-tracking branch 'cm/cm-11.0' into HEAD
+b8e85ff build: Store the jenkins build number in misc_info
+a0c7566 ota: Make sure we don't install on top of an incompatible system
+29a9b31 build: Disable Tamil locale
+
+   * device/htc/msm8660-common/
+5be8f65 Enable BOARD_EGL_SYSTEMUI_PBSIZE_HACK
+
+   * frameworks/av/
+3e897f5 Merge remote-tracking branch 'cm/cm-11.0' into HEAD
+a7191f0 libstagefright: getHFRRatio should return 1 by default
+
+   * frameworks/base/
+2e0e6a3 Merge remote-tracking branch 'cm/cm-11.0' into HEAD
+614255b WallpaperCropper: load wallpapers in the background
+f523fde quiethours: do not play screenshot sound
+
+   * packages/apps/Trebuchet/
+b2f186e Fix Overview Panel glitch when animating Workspace into overview mode.
+21b611f Trebuchet: Update dummy strings
+cc8310c Trebuchet: Add a string for JA translation
+2168cc8 trebuchet: remove CALL_PHONE permission
+a83cd3d Protected Apps:  - Fix remove all apps button bug
+
+   * packages/apps/UnifiedEmail/
+d671bc7 UnifiedEmail: Update "Fetching message" string
+
+   * vendor/cm/
+af91758 common: Set property for the CM releasetype
+aff5e54 ota: Validate any installed data's signature against our own
+1df415b common: Disable multithreaded dextop on RELEASE and SNAPSHOT builds
+
+====================
+     07-09-2014
+====================
+
+   * android/
+2d5c990 Add CyanogenMod cardslib fork to default.xml.
+
+   * external/koush/Superuser/
+1dd6753 Revert "Superuser: Don't duplicate 'Allow' string"
+6af4772 Superuser: Don't duplicate 'Allow' string
+
+   * external/whispersystems/WhisperPush/
+5190ad4 WhisperPush: More kitkat ActionBar fixes
+
+   * frameworks/base/
+c7f5049 Themes: Add URI for querying previews of applied components.
+e47f497 Themes: Add method to "apply all" a theme
+a0c3610 frameworks: set default expanded desktop style
+5076d46 quiethours: inclusive start hour
+
+   * packages/apps/CellBroadcastReceiver/
+af4bb4d CellBroadcastReceiver: More kitkat ActionBar fixes
+
+   * packages/apps/Email/
+83d2d34 Email: Set untranslatable
+
+   * packages/apps/Mms/
+688681c Fix a crash when scrolling while a SMS is delayed.
+
+   * packages/apps/Settings/
+cfce1a1 Settings: update default expanded desktop style
+
+   * packages/apps/Trebuchet/
+abb65fb Fix for disappearing icons bug.
+8efcdcc Fixes:  - Hide search bar if live settings are toggled in overview mode  - Restore workspace outlines in overview mode after live settings changes
+7a812e2 Fixing issues introduced in 31cc95a0:  - HotSeat needs go visible/invisible when transitioning in and out of overview mode  - Animation listener for setting alphas needs to remove itself when the animation finishes
+3d3dd2b Trebuchet: launch framework WallpaperPicker
+31cc95a Smooth out slide in/out animation for the overview panel
+
+   * packages/services/Telephony/
+f100f85 FDN: Don't crash when attempting to change the PIN2 without a SIM
+
+   * packages/wallpapers/PhotoPhase/
+22aecd3 Improve preference summary strings.
+
+====================
+     07-08-2014
+====================
+
+   * android/
+340246a manifest: Remove duplictes, alphabetize
+7a80771 add libraries for dependency injection to external
+ea16188 manifest: Add android_external_jsr330
+
+   * external/cardslib/
+e8fdb84 Altered CardArrayAdapter setEnableUndo to take a parentView to search instead of defaulting to searching the context for the UndoBar view. This assumption is wrong when we use cardslib in Trebuchet.
+6b7134b Keep mInternalObjects in sync for CardArrayAdapter
+
+   * frameworks/av/
+4f62c6d media: Fix visibility of destructor
+
+   * frameworks/base/
+6a7eb48 HeadsUp: Only remove heads up if attached to window
+d05d99a Revert "InputDevices: ES translations (AOSP)"
+a8712a0 SystemUI: Clear disappearing children and remove HeadsUp on recreate.
+d6421fa Fully fix interaction between torch and camera usage.
+47efe1d add framework torch service
+
+   * hardware/qcom/audio-caf/
+ff93769 audio: Starting proxy thread when there is an active stream
+
+   * kernel/htc/shooteru/
+8f73169 block: row: Fix crash when adding a new field in bio struct
+
+   * packages/apps/Email/
+a45578a email: fill from autodiscover data when available
+16c7e46 email: hide send feedback menu if feedback uri is empty
+a57b245 email: add auto fetch attachments for POP3 accounts
+
+   * packages/apps/Exchange/
+d213b57 exchange: use port returned by autodiscover response
+b01e5a2 exchange: try all autodiscover entrypoints
+
+   * packages/apps/Settings/
+5e55c36 Settings: Update strings
+2b3954d Settings: LT translations
+cade070 Settings : Add tap/pay help url
+fdc97e0 Settings: Remove security preferences from lockscreen options.
+
+   * packages/apps/ThemeChooser/
+7ffdfa5 Update ChooserBrowseFragment.java
+
+   * packages/apps/Trebuchet/
+37bab8f Minimize greedy UI updating for Live Settings
+92921aa Trebuchet: always set initial wallpaper offsets
+
+   * packages/services/Telephony/
+044136e Merge "Telephony: update number of missed calls in notifications" into cm-11.0
+f09f2f6 Network Settings: move APN to common area, both CDMA and GSM use this
+
+   * packages/wallpapers/PhotoPhase/
+c012ca5 Fix color picker layout.
+
+   * vendor/cm/
+60e945e Merge "Update changelog for M8" into cm-11.0
+ffd3d31 Update changelog for M8
+
+====================
+     07-07-2014
+====================
+
+   * external/JakeWharton/butterknife/
+dacbeab Android.mk for butterknife
+
+   * external/jsr308/
+1518474 Initial Commit
+
+   * external/square/dagger/
+d08e27b update copyright notice for android.mk
+9b7772b Android.mk for dagger and dagger-compiler
+
+   * external/square/javawriter/
+6cd498a Android.mk for javawriter
+
+   * frameworks/av/
+0e37e36 httplive: fix issues during httplive streaming seek
+
+   * frameworks/base/
+4fcab79 Revert " Audio: SetForceUse config check in AudioService"
+7ac64c7 Use a content observer for getting the default APN
+02459a7 server: clear forwarding rules when tethering is disabled
+16cac923 frameworks/base: Fix binder parcel leak with getMetadata() API
+89f4477 Use the correct package name for CHOOSER.
+3a77213 KeyChain: add explicit package for getPrivateKey.
+af54c81 Fix crash in widget pager - DO NOT MERGE
+
+   * frameworks/native/
+a31051e egl: Fix typo
+
+   * packages/apps/Email/
+d71dd6c email: prevent NPE in EmailProvider
+eb61957 email: display a "load more" button
+dd2c719 email: fix save attachment to storage for pop3 accounts
+4c65075 email: don't report blank attachment location for dummy attachments
+1dc178f Email: Fix for crowdin
+
+   * packages/apps/Settings/
+2cdb01e Merge changes I35bc11a7,I57f37bc6 into cm-11.0
+4c9f9b8 Merge "DisplayColor: Properly handle a minValue" into cm-11.0
+
+   * packages/apps/Torch/
+8cf0b8b Make torch shutdown by camera usage work properly.
+b7d5f5d Torch: signal to framework TorchService not to kill us
+03a393f Torch: Allow torch to be toggled off without knowledge of state
+
+   * packages/apps/UnifiedEmail/
+7716fdf unifiedemail: display a "load more" button
+
+   * packages/providers/ThemesProvider/
+76d3f15 Themes: Only reapply fonts, icons and overlays
+
+   * packages/services/Telephony/
+14d581a toggleLTE: switch to Global mode on devices that default to it
+be474c5 Telephony: update number of missed calls in notifications
+
+====================
+     07-06-2014
+====================
+
+   * frameworks/base/
+5864521 Themes: Style, boot animation, and wallpaper previews
+e452f09 Allow subclasses to override bindPreferences().
+
+   * packages/apps/Settings/
+bfb55e1 Check locale when populating DB instead of using separate receiver.
+acd925e Improve search UX prior to load being finished.
+22e86da Settings: Bump SettingsSearch db version.
+b411aa5 Settings: Disable search item in some fragments.
+7b5c19a Settings: For the sake of search, don't split security settings.
+0601327 Improve search performance.
+6579134 Highlight search string match.
+99c23f5 Settings : Scroll to preference on search and highlight
+

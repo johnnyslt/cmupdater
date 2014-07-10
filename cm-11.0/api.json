@@ -91,6 +91,16 @@
     "changes": "https://raw.githubusercontent.com/johnnyslt/cmupdater/master/cm-11.0/cm-11-20140620-UNOFFICIAL-shooteru.txt",
     "incremental": ""
     },
+    {
+    "url": "http://johnnyslt.esy.es/cm-11.0/cm-11-20140710-UNOFFICIAL-shooteru.zip",
+    "timestamp": "1405022694",
+    "api_level": "19",
+    "md5sum": "18129103018329b9063e7bf59ace607d",
+    "filename": "cm-11-20140710-UNOFFICIAL-shooteru.zip",
+    "channel": "stable",
+    "changes": "https://raw.githubusercontent.com/johnnyslt/cmupdater/master/cm-11.0/cm-11-20140710-UNOFFICIAL-shooteru.txt",
+    "incremental": ""
+    },
   ],
  "error": null
 }
