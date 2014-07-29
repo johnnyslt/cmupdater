@@ -1,0 +1,311 @@
+====================
+     07-29-2014
+====================
+
+   * build/
+c24f822 Merge remote-tracking branch 'cm/cm-11.0' into HEAD
+
+   * device/htc/shooteru/
+7bb4c6a Remove camera overlays
+
+   * frameworks/av/
+6d6c695 Merge remote-tracking branch 'cm/cm-11.0' into HEAD
+
+   * frameworks/base/
+6a6799a Merge remote-tracking branch 'cm/cm-11.0' into HEAD
+ad99f08 Make incoming call screen style configurable (1/3)
+
+   * hardware/qcom/media-legacy/
+2facf19 QCMetadata: add keys for FLAC meta data
+
+   * kernel/htc/shooteru/
+49828b5 Merge remote-tracking branch 'ls/kitkat' into HEAD
+
+   * packages/apps/CMUpdater/
+0ba0b3f Merge remote-tracking branch 'cm/cm-11.0' into HEAD
+
+   * packages/apps/InCallUI/
+1cf2d59 Merge "Avoid layout changes on call disconnection." into cm-11.0
+3b6c5a9 Merge "Make incoming call screen style configurable. (2/3)" into cm-11.0
+
+   * packages/apps/Settings/
+60c1395 Highlight all search matches for the given constraint.
+
+   * packages/apps/ThemeChooser/
+b361546 Revert "Save and restore state of checkboxes"
+
+   * vendor/cm/
+dd7057a Add China Telecom apns
+
+====================
+     07-28-2014
+====================
+
+   * frameworks/base/
+b15ac2d Filter spam notifications
+
+   * packages/apps/Settings/
+495aa56 Settings : Filter spam notifications
+
+   * vendor/cm/
+52c3a1a [PATCH] apn: fix typo on SKT LTE mmsc address
+
+====================
+     07-27-2014
+====================
+
+   * frameworks/av/
+a4125c8 Merge "Revert "appop: protect mediaserver with OP_RECORD_AUDIO op check."" into cm-11.0
+
+   * frameworks/base/
+28a5f8f SystemUI: fix hidden clock style after a reboot
+
+   * packages/apps/Calculator/
+c46e6a2 Calculator: Move untranslatable resources
+
+====================
+     07-26-2014
+====================
+
+   * bootable/recovery-cm/
+f0ebf1f sr: Fix menu wrapping
+22097fb recovery: initialize keys press tracking status
+0217c8f SR: Fix datamedia detection
+
+   * frameworks/av/
+465fb32 Revert "appop: protect mediaserver with OP_RECORD_AUDIO op check."
+341c7ff Merge "appop: protect mediaserver with OP_RECORD_AUDIO op check." into cm-11.0
+
+   * frameworks/base/
+10520e1 core: Fix permission string
+75a2ee5 Framework : Fix proximity wakeup reference
+f73881b ProximityWake : Add support for checking proximity when waking device
+b5eacea Automatic translation import
+9c554e1 IconPackHelper: Don't respect an icons original size if too large.
+8b48314 Add system setting for t9 search input locale
+
+   * hardware/qcom/audio-caf/
+2294a4a hal: Limit MP2 and WMA offload to 8226/8974 devies only
+
+   * packages/apps/Apollo/
+a184737 Merge "Display the song duration in the queue and info views" into cm-11.0
+
+   * packages/apps/CMHome/
+27b2cac CMHome: Fix permission strings
+54b384d Automatic translation import
+
+   * packages/apps/ContactsCommon/
+813404e ContactsCommon: Add optional text highlight color
+
+   * packages/apps/Dialer/
+66ecd03 Return match positions to enable highlighting for CN smart dial
+fcffaad Read option for t9 search input locale and refresh smart dial db when locale changes
+
+   * packages/apps/Settings/
+8d3a8ef Settings : Add preference for proximity wake
+9a69d62 Automatic translation import
+
+   * packages/apps/Trebuchet/
+7b7ee6d Trebuchet: Fix permission strings
+
+   * packages/services/Telephony/
+c3a33dc Make incoming call screen style configurable (3/3)
+2990f22 Cleanup.
+73b28e6 Automatic translation import
+f1bbd1c Kill camel case in dialpad t9 search labels
+fed5401 Add setting for t9 search input locale
+
+   * system/core/
+47dfddf Merge "Revert "charger: Draw battery percentage over charger screen"" into cm-11.0
+
+   * vendor/cm/
+36cd9f5 Remove me from contributors
+63691b0 contributors: add sony Z2
+3fe14dd vendor/cm : update some contributors
+
+====================
+     07-25-2014
+====================
+
+   * external/koush/Superuser/
+a4bb420 Automatic translation import
+
+   * external/whispersystems/WhisperPush/
+7d1e506 Automatic translation import
+
+   * frameworks/av/
+912d29c stagefright: Handle offload fallback for 24-bit tracks
+
+   * frameworks/base/
+0cb3a6e NavTargets : Show highlight for google search
+47a2522 QuickSettings : Properly restore lockscreen tile state
+e037c1f QuickSettings : Register/unregister cast tile one time
+ea1fd04 Themes: Make notification list bg themeable
+98d0ae6 SystemUI: Fix too long SK bluetooth string
+
+   * hardware/qcom/audio-caf/
+404b64e Limit codec offload to devices with QCOM_AV_ENHANCEMENTS enabled
+
+   * packages/apps/Apollo/
+b0af95e Automatic translation import
+
+   * packages/apps/Bluetooth/
+1a4a2c7 Automatic translation import
+e5fd713 Bluetooth: MAP: Close output stream before closing client session
+
+   * packages/apps/BluetoothExt/
+3adb7b3 Automatic translation import
+
+   * packages/apps/Browser/
+5f842f7 Automatic translation import
+
+   * packages/apps/CMAccount/
+25c00df Automatic translation import
+
+   * packages/apps/CMFileManager/
+d3806bb Automatic translation import
+
+   * packages/apps/CMHome/
+d708915 Fix Undo Bar appearance during Google Now use.
+2c96e2c Fix card display issues on lower density screens.
+
+   * packages/apps/CMUpdater/
+1b4d2f4 Automatic translation import
+
+   * packages/apps/CMWallpapers/
+c5f6c76 Automatic translation import
+
+   * packages/apps/Calculator/
+0ef3233 Automatic translation import
+
+   * packages/apps/Calendar/
+ff6243f Automatic translation import
+
+   * packages/apps/Camera2/
+a3928ce Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+02a4f9a Automatic translation import
+
+   * packages/apps/CertInstaller/
+da3b49e Automatic translation import
+
+   * packages/apps/Contacts/
+1a9d4af Automatic translation import
+
+   * packages/apps/ContactsCommon/
+89691ff Automatic translation import
+
+   * packages/apps/DSPManager/
+d04ac4b Automatic translation import
+
+   * packages/apps/DeskClock/
+dba443d Automatic translation import
+
+   * packages/apps/Dialer/
+007c74c Automatic translation import
+b8daf04 Dialer: Refactor SmartDial for additional languages
+
+   * packages/apps/Email/
+d7a4b9f Automatic translation import
+
+   * packages/apps/Exchange/
+23036e9 Automatic translation import
+
+   * packages/apps/Gallery2/
+d73d198 Automatic translation import
+
+   * packages/apps/InCallUI/
+93e21dd Automatic translation import
+
+   * packages/apps/KeyChain/
+8bb6581 Automatic translation import
+
+   * packages/apps/LockClock/
+e502d3b Automatic translation import
+
+   * packages/apps/Mms/
+6ea9d64 Automatic translation import
+
+   * packages/apps/Nfc/
+bc643d9 Automatic translation import
+
+   * packages/apps/PackageInstaller/
+a73f9ba Automatic translation import
+
+   * packages/apps/Settings/
+227f402 Settings: Modify AOSP JA translation
+79ca792 Settings : Dismiss glowpad view on trigger
+4a27f5b Fix search highlight matching in some cases.
+1383797 settings: reset protected apps view instead of finish the activity
+4d3a9e1 DataUsageSummary: Add CDMA support for showing usage for devices without sim cards
+
+   * packages/apps/SoundRecorder/
+4156516 Automatic translation import
+
+   * packages/apps/Stk/
+358eb3c Automatic translation import
+
+   * packages/apps/Tag/
+658ba70 Automatic translation import
+
+   * packages/apps/ThemeChooser/
+fa94b86 Automatic translation import
+
+   * packages/apps/Torch/
+2312dbe Automatic translation import
+
+   * packages/apps/Trebuchet/
+56d3a50 Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+2975f55 Automatic translation import
+
+   * packages/apps/VideoEditor/
+c38c536 Automatic translation import
+
+   * packages/apps/VoiceDialer/
+9da438c Automatic translation import
+
+   * packages/apps/VoicePlus/
+f244d02 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+ffff7af Automatic translation import
+
+   * packages/providers/CalendarProvider/
+e15a274 Automatic translation import
+
+   * packages/providers/ContactsProvider/
+4c67c4a Automatic translation import
+
+   * packages/providers/DownloadProvider/
+788d5b8 Automatic translation import
+
+   * packages/providers/MediaProvider/
+1c72e3d Automatic translation import
+
+   * packages/providers/ThemesProvider/
+4c484f8 Automatic translation import
+
+   * packages/providers/UserDictionaryProvider/
+fc60589 Automatic translation import
+
+   * packages/wallpapers/Basic/
+7234c3e Automatic translation import
+
+   * packages/wallpapers/Galaxy4/
+d488326 Automatic translation import
+
+   * packages/wallpapers/MusicVisualization/
+abc1fc1 Automatic translation import
+
+   * packages/wallpapers/PhaseBeam/
+afadd7d Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+fd8e48e Automatic translation import
+
+   * system/vold/
+da4c5ec vold: Support for moving crypto metadata
+
