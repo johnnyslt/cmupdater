@@ -1,0 +1,237 @@
+====================
+     09-19-2014
+====================
+
+   * build/
+bdd2d28 Merge remote-tracking branch 'cm/cm-11.0' into HEAD
+
+   * device/htc/msm8660-common/
+7a40398 liblights: notifications should have priority over the battery-state
+8f5fadd dedupe soft video codecs
+
+   * device/oppo/msm8974-common/
+1868b48 msm8974-common: Sync voice acdb entries with ColorOS
+d955cb6 msm8974: Add TARGET_HAVE_NEW_GRALLOC flag
+0afedfd msm8974: Update audio topology, again!
+3cb0956 audio: Update audio topologies
+bc14a0e msm8974: Add the ADSP loader bits
+
+   * frameworks/av/
+5df2534 Merge remote-tracking branch 'cm/cm-11.0' into HEAD
+
+   * frameworks/base/
+a96b5f3 Merge remote-tracking branch 'cm/cm-11.0' into HEAD
+bb7cbbb Keyguard: fix chopped keyguard on hdpi MSim devices
+
+   * hardware/qcom/display-caf-new/
+1d15b50 gralloc: Add backwards-compatible gralloc
+
+   * kernel/oneplus/msm8974/
+a239e4a bacon: Update defconfig
+47e6bde ARM: fix user unalignment prefetch abort
+54bf744 msm: mdss: align frame buffer size to PAGE_SIZE
+206b23a mm: do not sleep in balance_pgdat if there's no i/o congestion
+eab7dca ARM: gic: Bring inline with upstream
+920ce41 cpuidle: check for need_resched() after the idle entry trace event
+abc48cd arm/crypto: Add optimized AES and SHA1 routines
+0ed0fba devfreq: Backport MSM devfreq features from 3.10
+a94ef01 ARM: bitops: prefetch the destination word for write prior to strex
+6afd836 input: touchscreen: synaptics_dsx: Generate the hardware ts on interrupt
+0827077 lm3630: Clean up the lm3630 driver
+68ac8af msm: clock-krait-8974: Add support to read SVS PVS bin
+b02b67a smp: Fix SMP function call empty cpu mask race
+f2e734f ion: Use dma_free_attrs for freeing secure memory
+2d8204a sched: Remove get_online_cpus() usage
+fbb44b7 msm: kgsl: Keep the GPU from going into a slumber after a touch event
+b5ccabe msm: kgsl: Fix gpu idle check
+d8e9ec8 arm/dts: Scope pic16F setup for Oppo board properly
+06b62cb ASoC: msm: qdsp6v2: update int to size_t
+8623581 ASoC: msm: qdsp6v2: Change client names for ion alloc
+f7f7086 ASoC: wcd9320: Fix micbias setting for MAD
+55840a6 ASoC: msm: q6dspv2: add pause/resume support for audio record
+7adb006 ASoC: qdsp6v2: update perf mode flag for LL capture cases
+89574e2 ASoC: msm: qdsp6v2: Cleanup of compress offload drivers
+feb2bd3 ASoC: msm: qdsp6v2: Cleanup of audio drivers
+f862bf2 ASoC: msm: qdsp6v2: Add the matrix mixer call during ASM loopback
+f31b465 ASoC: msm: qdsp6v2: Fix bit alignment in snd_codec params
+25d1cff ASoC: msm: audio-effects: improve logging
+78d2c6c ASoC: msm: qdsp6v2: requeue read buffers in mmap device switch
+9055702 ASoC: msm: qdsp6v2: check proxy port is open when closing
+830862d ASoC: dapm: Fix _PRE and _POST events for DAPM performance improvements
+f539daf ALSA: snd-usb: add support for DSD DOP stream transport
+
+   * packages/apps/CMUpdater/
+639535e Merge remote-tracking branch 'cm/cm-11.0' into HEAD
+
+   * system/core/
+725c4d7 Revert "update minui library call"
+
+   * vendor/cm/
+2eb363f cm: CMFota should not be defined here.
+65fde4b added Lycamobile, Aero2, and T-Mobile Poland APNs
+
+   * vendor/oppo/
+c1e96cd msm8974: Update blobs
+
+====================
+     09-18-2014
+====================
+
+   * device/oppo/msm8974-common/
+b2d887b msm8974: Switch to TimeService blobs
+
+   * frameworks/base/
+8d1f863 Only show status bar blocker view if nav bar is translucent.
+
+   * packages/apps/Contacts/
+67c1442 Add missing colon to memory status
+
+   * packages/apps/ContactsCommon/
+9a9e9b0 Merge "Make sure internal lists of AccountTypeManager aren't modified." into cm-11.0
+4809790 Merge "String improvements." into cm-11.0
+89e5fd6 Cleanup newlines in strings
+
+   * packages/apps/DSPManager/
+75f5584 dspmanager: Allow target to provide it's own replacement
+
+   * packages/apps/Gallery2/
+42fb01f Merge "Fix crash of gallery on showing details" into cm-11.0
+d2736c8 Fix crash of gallery on showing details
+c76ae2a Merge "Reduce logspam in video player" into cm-11.0
+
+   * packages/apps/InCallUI/
+dee000b Merge "MSIM: Fix fragment class names" into cm-11.0
+cfb9e3e MSIM: Fix fragment class names
+
+   * packages/apps/Settings/
+7348477 Settings: Move "Double-tap to sleep" option under Display settings
+
+   * vendor/cm/
+66bb76c add Virgin Mobile USA apn
+21238c4 added Boost, Credo & Ting APNs
+2636b47 added Bmobile Trinidad APN
+9aa0a13 added DJUICE mms APN
+6a2c2b0 add tuBiedronka APNs
+3226df5 add Vodafone, AMC, Eagle & Plus APNs
+16375b8 Themes: Add versioning to the theme feature
+
+   * vendor/oppo/
+34d810d msm8974: Add TimeService blobs
+
+====================
+     09-17-2014
+====================
+
+   * device/oneplus/bacon/
+c3c789f bacon: SLIMBUX are the best bux
+
+   * device/oppo/msm8974-common/
+dd69e76 msm8974: Clean up prebuilts
+
+   * frameworks/base/
+978c8bb Fix attribute resolution in theme lookup
+
+   * hardware/qcom/display-caf-new/
+6355e46 display: initialize viewFrame info for external displays
+bd45670 qdutils : Add mdp revision for 8x39.
+17c41df mdp_version: Check define for each version
+a4feef5 display: remove compiler warnings
+f45e07d hwc: Set GPU Hint from idlefallback state to GPU
+40596af hwc: Avoid partial frame update on secure display
+1d5c8af hwc: Add support for secure RGB layer
+b4816d0 hwc: Simulate composition strategy
+31c240f overlay : Rely on 8x16 pipe strategy for 8x39.
+c497e86 hwc: Remove external only feature related code
+49b00e2 hwc : Enable ABC only for non intersecting layers.
+efcb006 hwc : Add support for ABC in MDP3
+8f56220 hwc : Add support for single layer Bypass in MDP3
+8cfbf27 hwc: Conditionally compile dirtyRect under QCOM_BSP for copybit
+aa2c66f hwc: Handle validateAndSet failures in AD prepare call
+5b9de9d libqdutils: Readd macro for compatibility
+01527f2 display: Remove ashmem header includes
+62ba83d gralloc: Fix incorrect handle validation check
+354beea hwc: Fix compiler warning
+325e2bb qdutils : Read max mixer width from drivers.
+c9f1d19 qdutils: Parse rotator downscale feature
+90e6d52 Limit #ROT-SESSIONS to 4 in LayerRotMap and RotMgr
+043062f gralloc: Use ION fd in FB handle
+6fcb5aa gralloc: fix getYUVPlaneInfo for YV12 format
+d2db3ec hwc/overlay: Implement rotator caching
+5895631 overlay: Add support for rotator downscale
+6ca6a3a hwc\overlay: Remove support for foreground override
+
+   * kernel/oneplus/msm8974/
+8e6d960 net: guard tcp_set_keepalive() to tcp sockets
+ebaa5cb bacon: Disable JTAG support
+
+   * packages/apps/Gallery2/
+a10b88e Gallery2: Improve strings
+5cf3392 Reduce logspam in video player
+
+   * packages/apps/UnifiedEmail/
+69d2ac4 UnifiedEmail: Improve string
+
+   * packages/services/Telephony/
+3c5f3a5 Telephony: Use correct string for missed video calls notification
+
+   * vendor/oppo/
+50060b6 msm8974: Update blobs
+
+====================
+     09-16-2014
+====================
+
+   * bionic/
+8a2d041 Revert "DNS: make the same ip type DNS query as the interface address type"
+
+   * device/oppo/msm8974-common/
+8dc7a89 msm8974: Enable display color enhancement feature
+34daf35 Revert "msm8974: Re-add separate FAST device path"
+
+   * frameworks/base/
+ddc230e hwui: Fix a sporadic crash seen during CTS runs
+
+   * kernel/oneplus/msm8974/
+3f8d631 asoc: msm: Fix compress capture
+c2ab224 msm8974: Add UIO region for NV recovery system
+
+   * packages/apps/ContactsCommon/
+4818e18 String improvements.
+07c9e70 Make sure internal lists of AccountTypeManager aren't modified.
+
+   * packages/apps/Dialer/
+d6e4f35 DialerStats: track how frequently contact images are present on the call detail page
+
+   * packages/apps/InCallUI/
+36e6ee3 Stats: track how frequently contact images are present incall
+
+   * packages/apps/Settings/
+ef461cb Settings: Fix AOSP WiFi AP translations
+
+   * vendor/cm/
+099f4c4 Update changelog for M9,M10 and remove remove M5
+60e798a add Virgin Mobile France APN
+c2a9181 add Carrefour Belgium APN
+
+====================
+     09-15-2014
+====================
+
+   * dalvik/
+3aba1fe dalvik: Rename perf flag
+
+   * external/skia/
+35ab79f skia: Rename perf flag
+
+   * external/sqlite/
+ce91dbe sqlite: Rename perf flag
+
+   * frameworks/base/
+02798d9 Revert "ContentProvider: Avoid duplicate initialization of AsyncTask"
+
+   * hardware/qcom/media-caf-new/
+8dccd73 vdec: Rename flag for HEVC inclusion
+
+   * packages/wallpapers/PhotoPhase/
+9cac29d photophase: increase max acceptable compression time
+
