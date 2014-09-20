@@ -1,0 +1,128 @@
+====================
+     09-20-2014
+====================
+
+   * build/
+bdd2d28 Merge remote-tracking branch 'cm/cm-11.0' into HEAD
+
+   * device/htc/msm8660-common/
+7a40398 liblights: notifications should have priority over the battery-state
+8f5fadd dedupe soft video codecs
+
+   * frameworks/av/
+5df2534 Merge remote-tracking branch 'cm/cm-11.0' into HEAD
+
+   * frameworks/base/
+a96b5f3 Merge remote-tracking branch 'cm/cm-11.0' into HEAD
+
+   * packages/apps/CMUpdater/
+639535e Merge remote-tracking branch 'cm/cm-11.0' into HEAD
+
+   * vendor/cm/
+b5f9251 added Yota APN
+ffeb22c corrected Smart APN: missing space before "type"
+392145a added Axis, AWCC, MTN, Etisalat, Hutch, MPT APNs.
+0719e03 added Public Mobile APN, corrected Rogers WAP APN
+4600112 added ONO and Euskaltel APNs
+b1a8e6b added Cambodia APNs
+1b01ed1 added Claro Argentina APN
+
+====================
+     09-19-2014
+====================
+
+   * frameworks/base/
+bb7cbbb Keyguard: fix chopped keyguard on hdpi MSim devices
+8d1f863 Only show status bar blocker view if nav bar is translucent.
+
+   * packages/apps/ContactsCommon/
+9a9e9b0 Merge "Make sure internal lists of AccountTypeManager aren't modified." into cm-11.0
+4809790 Merge "String improvements." into cm-11.0
+
+   * packages/apps/Gallery2/
+42fb01f Merge "Fix crash of gallery on showing details" into cm-11.0
+d2736c8 Fix crash of gallery on showing details
+
+   * vendor/cm/
+2eb363f cm: CMFota should not be defined here.
+65fde4b added Lycamobile, Aero2, and T-Mobile Poland APNs
+
+====================
+     09-18-2014
+====================
+
+   * packages/apps/Contacts/
+67c1442 Add missing colon to memory status
+
+   * packages/apps/ContactsCommon/
+89e5fd6 Cleanup newlines in strings
+
+   * packages/apps/DSPManager/
+75f5584 dspmanager: Allow target to provide it's own replacement
+
+   * packages/apps/Gallery2/
+c76ae2a Merge "Reduce logspam in video player" into cm-11.0
+a10b88e Gallery2: Improve strings
+
+   * packages/apps/InCallUI/
+dee000b Merge "MSIM: Fix fragment class names" into cm-11.0
+cfb9e3e MSIM: Fix fragment class names
+
+   * packages/apps/Settings/
+7348477 Settings: Move "Double-tap to sleep" option under Display settings
+
+   * packages/apps/UnifiedEmail/
+69d2ac4 UnifiedEmail: Improve string
+
+   * packages/services/Telephony/
+3c5f3a5 Telephony: Use correct string for missed video calls notification
+
+   * vendor/cm/
+66bb76c add Virgin Mobile USA apn
+21238c4 added Boost, Credo & Ting APNs
+2636b47 added Bmobile Trinidad APN
+9aa0a13 added DJUICE mms APN
+6a2c2b0 add tuBiedronka APNs
+3226df5 add Vodafone, AMC, Eagle & Plus APNs
+16375b8 Themes: Add versioning to the theme feature
+
+====================
+     09-17-2014
+====================
+
+   * frameworks/base/
+978c8bb Fix attribute resolution in theme lookup
+
+   * packages/apps/ContactsCommon/
+4818e18 String improvements.
+
+   * packages/apps/Gallery2/
+5cf3392 Reduce logspam in video player
+
+====================
+     09-16-2014
+====================
+
+   * bionic/
+8a2d041 Revert "DNS: make the same ip type DNS query as the interface address type"
+
+   * frameworks/base/
+ddc230e hwui: Fix a sporadic crash seen during CTS runs
+
+   * packages/apps/ContactsCommon/
+07c9e70 Make sure internal lists of AccountTypeManager aren't modified.
+
+   * packages/apps/Dialer/
+d6e4f35 DialerStats: track how frequently contact images are present on the call detail page
+
+   * packages/apps/InCallUI/
+36e6ee3 Stats: track how frequently contact images are present incall
+
+   * packages/apps/Settings/
+ef461cb Settings: Fix AOSP WiFi AP translations
+
+   * vendor/cm/
+099f4c4 Update changelog for M9,M10 and remove remove M5
+60e798a add Virgin Mobile France APN
+c2a9181 add Carrefour Belgium APN
+

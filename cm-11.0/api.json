@@ -121,6 +121,16 @@
     "changes": "https://raw.githubusercontent.com/johnnyslt/cmupdater/master/cm-11.0/cm-11-20140919-UNOFFICIAL-shooteru.txt",
     "incremental": ""
     },
+    {
+    "url": "https://s.basketbuild.com/dl/devs?dl=Johnnyslt/cm-11.0/cm-11-20140920-UNOFFICIAL-shooteru.zip",
+    "timestamp": "1411205050",
+    "api_level": "19",
+    "md5sum": "530cdd8fee4dc1eaa9b0db6ff9ed15f0",
+    "filename": "cm-11-20140920-UNOFFICIAL-shooteru.zip",
+    "channel": "stable",
+    "changes": "https://raw.githubusercontent.com/johnnyslt/cmupdater/master/cm-11.0/cm-11-20140920-UNOFFICIAL-shooteru.txt",
+    "incremental": ""
+    },
   ],
  "error": null
 }
